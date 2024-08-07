@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main{
+     height: 500px ;
+     width: 800px;
+     border: 5px solid rgb(255, 255, 255);
+     color: white ;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+
+}
+
+p{
+    font-size: 50px ;
+    font-family: "Rye", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+.imagediv{
+    position: absolute;
+    height: 270px ;
+    width: 200px;
+    overflow: hidden;
+
+}
+
+.imagediv img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: translateY(100%);
+    
+}
+
+
+
+
+
